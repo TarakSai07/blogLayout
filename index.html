@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Layout</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+<!-- Blog Cards Container -->
+<div class="container mx-auto px-4 py-8">
+    
+    <!-- SIDEBAR -->
+      <div id="sidebar"
+         class="fixed top-0 left-0 h-full w-64
+                bg-white shadow-lg overflow-y-auto
+                transform -translate-x-full
+                transition-transform duration-300
+                ease-in-out z-50">
+
+        <div class="p-6">
+
+            <!-- Profile -->
+            <div class="text-center mb-6">
+
+                <img src="CSS\TAILWIND\blogLayout\WhatsApp Image 2025-09-08 at 13.36.59_cf678a2f(1).jpg"
+                     alt="Profile Picture"
+                     class="rounded-full mx-auto mb-2">
+
+                <h3 class="text-lg font-semibold">
+                    Tarak Sai Tanagala
+                </h3>
+
+                <p class="text-gray-600">
+                    Full Stack Developer
+                </p>
+
+            </div>
+
+
+            <!-- About Me -->
+            <h4 class="text-xl font-semibold mb-2">
+                About Me
+            </h4>
+
+            <p class="text-gray-700 mb-6">
+                I'm a passionate web developer with
+                a love for coding and creating amazing
+                digital experiences.
+            </p>
+
+
+            <!-- Popular Posts -->
+            <h4 class="text-xl font-semibold mb-4">
+                Popular Posts
+            </h4>
+
+
+            <ul>
+
+                <!-- Popular Post 1 -->
+                <li class="flex items-center mb-4">
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240117155347/responsive-web-design-copy.webp"
+                         alt="Responsive Web Design"
+                         class="w-16 h-16 object-cover rounded mr-3">
+
+                    <div>
+                        <p class="font-semibold">
+                            Responsive Web Design
+                        </p>
+
+                        <p class="text-sm text-gray-500">
+                            March 21, 2024
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <!-- Popular Post 2 -->
+                <li class="flex items-center mb-4">
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230809133232/JavaScript-Complete-Guide-copy-2.webp"
+                         alt="JavaScript Fundamentals"
+                         class="w-16 h-16 object-cover rounded mr-3">
+
+                    <div>
+                        <p class="font-semibold">
+                            JavaScript Fundamentals
+                        </p>
+
+                        <p class="text-sm text-gray-500">
+                            March 18, 2024
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <!-- Popular Post 3 -->
+                <li class="flex items-center mb-4">
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240507112025/75s2.png"
+                         alt="CSS Flexbox Tutorial"
+                         class="w-16 h-16 object-cover rounded mr-3">
+
+                    <div>
+                        <p class="font-semibold">
+                            CSS Flexbox Tutorial
+                        </p>
+
+                        <p class="text-sm text-gray-500">
+                            March 15, 2024
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <!-- Popular Post 4 -->
+                <li class="flex items-center mb-4">
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230821163330/HTML-Complete-Guide---A-to-Z-HTML-Concepts-2-copy.webp"
+                         alt="HTML Basics"
+                         class="w-16 h-16 object-cover rounded mr-3">
+
+                    <div>
+                        <p class="font-semibold">
+                            HTML Basics
+                        </p>
+
+                        <p class="text-sm text-gray-500">
+                            March 10, 2024
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <!-- Popular Post 5 -->
+                <li class="flex items-center mb-4">
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230713125158/Screenshot-2023-07-13-125103.png"
+                         alt="CSS Grid Layout"
+                         class="w-16 h-16 object-cover rounded mr-3">
+
+                    <div>
+                        <p class="font-semibold">
+                            CSS Grid Layout
+                        </p>
+
+                        <p class="text-sm text-gray-500">
+                            March 5, 2024
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <!-- Popular Post 6 -->
+                <li class="flex items-center mb-4">
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240220145751/react-hooksr-tutorial-copy.webp"
+                         alt="React Hooks"
+                         class="w-16 h-16 object-cover rounded mr-3">
+
+                    <div>
+                        <p class="font-semibold">
+                            React Hooks
+                        </p>
+
+                        <p class="text-sm text-gray-500">
+                            February 28, 2024
+                        </p>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+<!-- Hamburger Button -->
+<div id="toggle-button"
+     class="fixed top-0 left-0 p-4 cursor-pointer z-50
+            transition duration-300 hover:scale-110">
+
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="h-8 w-8 text-gray-500 hover:text-gray-700"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+
+        <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7">
+        </path>
+
+    </svg>
+
+</div>
+
+
+ <h2 class="text-3xl font-bold mb-6 text-center">
+  Welcome to Tarak Sai Blog Layout</h2>
+
+    <!-- Responsive Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+        <!-- 1. Responsive Web Design Card -->
+        <div class="blog-post bg-white rounded-xl overflow-hidden shadow-md
+                    hover:shadow-lg transition duration-300">
+
+            <!-- Card Image -->
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240117155347/responsive-web-design-copy.webp"
+                 alt="Responsive Web Design"
+                 class="w-full h-40 object-cover rounded-t-xl">
+
+            <!-- Card Content -->
+            <div class="p-6">
+
+                <!-- Card Title -->
+                <h2 class="text-xl font-semibold mb-2">
+                    Responsive Web Design
+                </h2>
+
+                <!-- Card Description -->
+                <p class="text-gray-700 mb-4">
+                    Learn how to create responsive web designs
+                    that look great on all devices.
+                </p>
+
+                <!-- Date and Read More -->
+                <div class="flex items-center justify-between">
+
+                    <p class="text-sm text-gray-600">
+                        March 21, 2024
+                    </p>
+
+                    <a href="#"
+                       class="text-blue-500 hover:underline read-more"
+                       data-title="Responsive Web Design">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2. JavaScript Fundamentals Card -->
+        <div class="blog-post bg-white rounded-xl overflow-hidden shadow-md
+                    hover:shadow-lg transition duration-300">
+
+            <!-- Card Image -->
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230809133232/JavaScript-Complete-Guide-copy-2.webp"  
+                 alt="JavaScript Fundamentals"
+                 class="w-full h-40 object-cover rounded-t-xl">
+
+            <!-- Card Content -->
+            <div class="p-6">
+
+                <!-- Card Title -->
+                <h2 class="text-xl font-semibold mb-2">
+                    JavaScript Fundamentals
+                </h2>
+
+                <!-- Card Description -->
+                <p class="text-gray-700 mb-4">
+                    Learn the basics of JavaScript and understand
+                    how to add interactivity to web pages.
+                </p>
+
+                <!-- Date and Read More -->
+                <div class="flex items-center justify-between">
+
+                    <p class="text-sm text-gray-600">
+                        March 18, 2024
+                    </p>
+
+                    <a href="#"
+                       class="text-blue-500 hover:underline read-more"
+                       data-title="JavaScript Fundamentals">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 3. CSS Flexbox Tutorial Card -->
+        <div class="blog-post bg-white rounded-xl overflow-hidden shadow-md
+                    hover:shadow-lg transition duration-300">
+
+            <!-- Card Image -->
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240507112025/75s2.png"
+                 alt="CSS Flexbox Tutorial"
+                 class="w-full h-40 object-cover rounded-t-xl">
+
+            <!-- Card Content -->
+            <div class="p-6">
+
+                <!-- Card Title -->
+                <h2 class="text-xl font-semibold mb-2">
+                    CSS Flexbox Tutorial
+                </h2>
+
+                <!-- Card Description -->
+                <p class="text-gray-700 mb-4">
+                    Master CSS Flexbox to create flexible and
+                    responsive layouts with ease.
+                </p>
+
+                <!-- Date and Read More -->
+                <div class="flex items-center justify-between">
+
+                    <p class="text-sm text-gray-600">
+                        March 15, 2024
+                    </p>
+
+                    <a href="#"
+                       class="text-blue-500 hover:underline read-more"
+                       data-title="CSS Flexbox Tutorial">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 4. HTML Basics Card -->
+        <div class="blog-post bg-white rounded-xl overflow-hidden shadow-md
+                    hover:shadow-lg transition duration-300">
+
+            <!-- Card Image -->
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230821163330/HTML-Complete-Guide---A-to-Z-HTML-Concepts-2-copy.webp"
+                 alt="HTML Basics"
+                 class="w-full h-40 object-cover rounded-t-xl">
+
+            <!-- Card Content -->
+            <div class="p-6">
+
+                <!-- Card Title -->
+                <h2 class="text-xl font-semibold mb-2">
+                    HTML Basics
+                </h2>
+
+                <!-- Card Description -->
+                <p class="text-gray-700 mb-4">
+                    Learn the fundamentals of HTML and understand
+                    how to structure web pages effectively.
+                </p>
+
+                <!-- Date and Read More -->
+                <div class="flex items-center justify-between">
+
+                    <p class="text-sm text-gray-600">
+                        March 12, 2024
+                    </p>
+
+                    <a href="#"
+                       class="text-blue-500 hover:underline read-more"
+                       data-title="HTML Basics">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 5. CSS Grid Layout Card -->
+        <div class="blog-post bg-white rounded-xl overflow-hidden shadow-md
+                    hover:shadow-lg transition duration-300">
+
+            <!-- Card Image -->
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230713125158/Screenshot-2023-07-13-125103.png"
+                 alt="CSS Grid Layout"
+                 class="w-full h-40 object-cover rounded-t-xl">
+
+            <!-- Card Content -->
+            <div class="p-6">
+
+                <!-- Card Title -->
+                <h2 class="text-xl font-semibold mb-2">
+                    CSS Grid Layout
+                </h2>
+
+                <!-- Card Description -->
+                <p class="text-gray-700 mb-4">
+                    Discover how CSS Grid helps you build powerful
+                    and responsive web layouts.
+                </p>
+
+                <!-- Date and Read More -->
+                <div class="flex items-center justify-between">
+
+                    <p class="text-sm text-gray-600">
+                        March 10, 2024
+                    </p>
+
+                    <a href="#"
+                       class="text-blue-500 hover:underline read-more"
+                       data-title="CSS Grid Layout">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 6. React Hooks Card -->
+        <div class="blog-post bg-white rounded-xl overflow-hidden shadow-md
+                    hover:shadow-lg transition duration-300">
+
+            <!-- Card Image -->
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240220145751/react-hooksr-tutorial-copy.webp"
+                 alt="React Hooks"
+                 class="w-full h-40 object-cover rounded-t-xl">
+
+            <!-- Card Content -->
+            <div class="p-6">
+
+                <!-- Card Title -->
+                <h2 class="text-xl font-semibold mb-2">
+                    React Hooks
+                </h2>
+
+                <!-- Card Description -->
+                <p class="text-gray-700 mb-4">
+                    Learn how React Hooks simplify state management
+                    and make functional components more powerful.
+                </p>
+
+                <!-- Date and Read More -->
+                <div class="flex items-center justify-between">
+
+                    <p class="text-sm text-gray-600">
+                        March 8, 2024
+                    </p>
+
+                    <a href="#"
+                       class="text-blue-500 hover:underline read-more"
+                       data-title="React Hooks">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<!-- Modal -->
+<div id="modal"
+     class="hidden fixed inset-0 bg-gray-800 bg-opacity-75
+            flex items-center justify-center z-50">
+
+    <!-- Modal Box -->
+    <div class="bg-white p-8 rounded-lg max-w-xl w-full">
+
+        <!-- Modal Title -->
+        <h2 id="modal-title"
+            class="text-2xl font-semibold mb-4">
+        </h2>
+
+        <!-- Modal Content -->
+        <div id="modal-content"
+             class="text-gray-700">
+        </div>
+
+        <!-- Close Button -->
+        <button id="close-modal"
+                class="mt-6 px-4 py-2 bg-blue-500
+                       text-white rounded hover:bg-blue-600">
+            Close
+        </button>
+
+    </div>
+
+</div>
+
+
+<script>
+
+   //when sidebar clicked
+   const toggleButton = document.getElementById('toggle-button');
+   
+   const sidebar = document.getElementById('sidebar');
+
+   toggleButton.addEventListener('click', function(){
+     
+    sidebar.classList.toggle('-translate-x-full');
+   });
+
+
+    // Get all Read More links
+    const readMoreLinks = document.querySelectorAll('.read-more');
+
+    // Get Modal
+    const modal = document.getElementById('modal');
+
+    // Get Modal Title
+    const modalTitle = document.getElementById('modal-title');
+
+    // Get Modal Content
+    const modalContent = document.getElementById('modal-content');
+
+    // Get Close Button
+    const closeModalButton = document.getElementById('close-modal');
+
+
+    // When Read More is clicked
+    readMoreLinks.forEach(link => {
+
+        link.addEventListener('click', function(event) {
+
+            // Prevent page from refreshing
+            event.preventDefault();
+
+            // Get title from data-title
+            const postTitle = link.dataset.title;
+
+            // Display title
+            modalTitle.textContent = postTitle;
+
+
+            // Responsive Web Design
+            if (postTitle === 'Responsive Web Design') {
+
+                modalContent.innerHTML = `
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240117155347/responsive-web-design-copy.webp"
+                         alt="Responsive Web Design"
+                         class="w-full mb-4">
+
+                    <p>
+                        Responsive Web Design refers to designing
+                        websites that adapt to different screen
+                        sizes such as desktops, tablets, and
+                        mobile devices.
+                    </p>
+                `;
+
+            }
+
+
+            // JavaScript Fundamentals
+            else if (postTitle === 'JavaScript Fundamentals') {
+
+                modalContent.innerHTML = `
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230809133232/JavaScript-Complete-Guide-copy-2.webp"
+                         alt="JavaScript Fundamentals"
+                         class="w-full mb-4">
+
+                    <p>
+                        JavaScript Fundamentals cover the basic
+                        concepts of JavaScript. It helps developers
+                        create interactive and dynamic web pages
+                        and applications.
+                    </p>
+                `;
+
+            }
+
+
+            // CSS Flexbox Tutorial
+            else if (postTitle === 'CSS Flexbox Tutorial') {
+
+                modalContent.innerHTML = `
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240507112025/75s2.png"
+                         alt="CSS Flexbox Tutorial"
+                         class="w-full mb-4">
+
+                    <p>
+                        CSS Flexbox is a layout system used to
+                        create flexible layouts. It makes it easier
+                        to align and distribute elements inside
+                        a container.
+                    </p>
+                `;
+
+            }
+
+
+            // HTML Basics
+            else if (postTitle === 'HTML Basics') {
+
+                modalContent.innerHTML = `
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230821163330/HTML-Complete-Guide---A-to-Z-HTML-Concepts-2-copy.webp"
+                         alt="HTML Basics"
+                         class="w-full mb-4">
+
+                    <p>
+                        HTML is the standard markup language used
+                        to create and structure web pages. It
+                        provides elements such as headings,
+                        paragraphs, links, images, lists, tables,
+                        and forms.
+                    </p>
+                `;
+
+            }
+
+
+            // CSS Grid Layout
+            else if (postTitle === 'CSS Grid Layout') {
+
+                modalContent.innerHTML = `
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230713125158/Screenshot-2023-07-13-125103.png"
+                         alt="CSS Grid Layout"
+                         class="w-full mb-4">
+
+                    <p>
+                        CSS Grid Layout is a powerful layout system
+                        used to create complex and responsive web
+                        layouts. It works with rows and columns to
+                        arrange elements on a webpage.
+                    </p>
+                `;
+
+            }
+
+
+            // React Hooks
+            else if (postTitle === 'React Hooks') {
+
+                modalContent.innerHTML = `
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240220145751/react-hooksr-tutorial-copy.webp"
+                         alt="React Hooks"
+                         class="w-full mb-4">
+
+                    <p>
+                        React Hooks allow developers to use state
+                        and other React features inside functional
+                        components without using class components.
+                    </p>
+                `;
+
+            }
+
+
+            // Show Modal
+            modal.classList.remove('hidden');
+
+        });
+
+    });
+
+
+    // Close Modal
+    closeModalButton.addEventListener('click', function() {
+
+        modal.classList.add('hidden');
+
+    });
+
+</script>
+</body>
+</html>
