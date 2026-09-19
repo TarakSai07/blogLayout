@@ -80,3 +80,29 @@ Spacing and alignment
 Typography
 Image handling
 Responsive web design
+
+▶️ How to Run
+Download or clone this repository.
+Open the project folder.
+Make sure the HTML, CSS, and image files are in their correct locations.
+Open index.html in a modern web browser.
+📱 Responsive Design
+
+The layout can be viewed on:
+
+💻 Desktop
+📲 Tablet
+📱 Mobile
+⚠️ Project Limitations
+
+This is a frontend-only blog layout.
+
+The project does not include:
+
+Backend
+Database
+User authentication
+Blog management system
+Comment system
+Admin dashboard
+Dynamic blog creation
