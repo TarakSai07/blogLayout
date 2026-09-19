@@ -6,3 +6,11 @@ A simple and responsive Blog Layout Website created using HTML and CSS. This pro
 🏠 Blog Layout
 
 The website provides a structured blog interface containing different sections for presenting blog content.
+
+👤 Profile Section
+
+The layout includes a profile section containing:
+
+Profile picture
+Author/profile information
+Centered profile presentation
