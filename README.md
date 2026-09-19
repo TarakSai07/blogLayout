@@ -66,3 +66,17 @@ Blog-Layout/
 └── Profile.jpg
 
 The exact filenames may vary depending on the project folder structure.
+
+🎯 Project Purpose
+
+This project was created to practice:
+
+HTML5 structure
+Semantic HTML elements
+Div-based layouts
+Paragraph organization
+CSS styling
+Spacing and alignment
+Typography
+Image handling
+Responsive web design
