@@ -36,3 +36,22 @@ This makes the blog content easier to read and maintain.
 📱 Responsive Layout
 
 The layout is designed to provide a clean viewing experience across different screen sizes.
+
+🎨 User Interface
+
+The website contains:
+
+Profile section
+Blog content
+Structured paragraphs
+Styled content sections
+Responsive layout
+
+CSS is used to control:
+
+Spacing
+Alignment
+Typography
+Colors
+Section styling
+Profile image presentation
