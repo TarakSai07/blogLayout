@@ -32,3 +32,7 @@ Content containers
 Different sections of the page are organized using separate HTML elements and CSS styling.
 
 This makes the blog content easier to read and maintain.
+
+📱 Responsive Layout
+
+The layout is designed to provide a clean viewing experience across different screen sizes.
