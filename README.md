@@ -106,3 +106,18 @@ Blog management system
 Comment system
 Admin dashboard
 Dynamic blog creation
+
+🔮 Future Improvements
+
+The project can be extended with:
+
+Multiple blog posts
+Blog search
+Categories
+Comments
+Like functionality
+User authentication
+Dynamic blog content
+Backend API
+Database integration
+Admin panel
