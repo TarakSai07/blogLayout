@@ -14,3 +14,15 @@ The layout includes a profile section containing:
 Profile picture
 Author/profile information
 Centered profile presentation
+
+📝 Blog Content
+
+The project organizes blog content into separate sections and paragraphs for better readability.
+
+The content layout demonstrates:
+
+Headings
+Paragraphs
+Text formatting
+Structured sections
+Content containers
