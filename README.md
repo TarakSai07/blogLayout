@@ -121,3 +121,11 @@ Dynamic blog content
 Backend API
 Database integration
 Admin panel
+
+👨‍💻 Author
+
+Tarak Sai
+
+📄 License
+
+This project is created for educational and learning purposes.
