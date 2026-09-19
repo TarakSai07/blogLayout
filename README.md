@@ -55,3 +55,14 @@ Typography
 Colors
 Section styling
 Profile image presentation
+
+🛠️ Technologies Used
+HTML5
+CSS3
+📂 Project Structure
+Blog-Layout/
+├── index.html
+├── style.css
+└── Profile.jpg
+
+The exact filenames may vary depending on the project folder structure.
