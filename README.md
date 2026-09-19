@@ -26,3 +26,9 @@ Paragraphs
 Text formatting
 Structured sections
 Content containers
+
+🎨 Styled Sections
+
+Different sections of the page are organized using separate HTML elements and CSS styling.
+
+This makes the blog content easier to read and maintain.
