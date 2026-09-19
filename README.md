@@ -1,131 +1,140 @@
-📝 Blog Layout
+# 📝 Blog Layout
 
-A simple and responsive Blog Layout Website created using HTML and CSS. This project demonstrates how to structure a blog page with different sections such as profile information, blog content, and styled content areas.
+A simple and responsive **Blog Layout Website** created using **HTML and CSS**. This project demonstrates how to structure a blog page with different sections such as profile information, blog content, and styled content areas.
 
-🚀 Features
-🏠 Blog Layout
+## 🚀 Features
+
+### 🏠 Blog Layout
 
 The website provides a structured blog interface containing different sections for presenting blog content.
 
-👤 Profile Section
+### 👤 Profile Section
 
 The layout includes a profile section containing:
 
-Profile picture
-Author/profile information
-Centered profile presentation
+* Profile picture
+* Author/profile information
+* Centered profile presentation
 
-📝 Blog Content
+### 📝 Blog Content
 
 The project organizes blog content into separate sections and paragraphs for better readability.
 
 The content layout demonstrates:
 
-Headings
-Paragraphs
-Text formatting
-Structured sections
-Content containers
+* Headings
+* Paragraphs
+* Text formatting
+* Structured sections
+* Content containers
 
-🎨 Styled Sections
+### 🎨 Styled Sections
 
 Different sections of the page are organized using separate HTML elements and CSS styling.
 
 This makes the blog content easier to read and maintain.
 
-📱 Responsive Layout
+### 📱 Responsive Layout
 
 The layout is designed to provide a clean viewing experience across different screen sizes.
 
-🎨 User Interface
+## 🎨 User Interface
 
 The website contains:
 
-Profile section
-Blog content
-Structured paragraphs
-Styled content sections
-Responsive layout
+* Profile section
+* Blog content
+* Structured paragraphs
+* Styled content sections
+* Responsive layout
 
 CSS is used to control:
 
-Spacing
-Alignment
-Typography
-Colors
-Section styling
-Profile image presentation
+* Spacing
+* Alignment
+* Typography
+* Colors
+* Section styling
+* Profile image presentation
 
-🛠️ Technologies Used
-HTML5
-CSS3
-📂 Project Structure
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+
+## 📂 Project Structure
+
+```text
 Blog-Layout/
 ├── index.html
 ├── style.css
 └── Profile.jpg
+```
 
-The exact filenames may vary depending on the project folder structure.
+> The exact filenames may vary depending on the project folder structure.
 
-🎯 Project Purpose
+## 🎯 Project Purpose
 
 This project was created to practice:
 
-HTML5 structure
-Semantic HTML elements
-Div-based layouts
-Paragraph organization
-CSS styling
-Spacing and alignment
-Typography
-Image handling
-Responsive web design
+* HTML5 structure
+* Semantic HTML elements
+* Div-based layouts
+* Paragraph organization
+* CSS styling
+* Spacing and alignment
+* Typography
+* Image handling
+* Responsive web design
 
-▶️ How to Run
-Download or clone this repository.
-Open the project folder.
-Make sure the HTML, CSS, and image files are in their correct locations.
-Open index.html in a modern web browser.
-📱 Responsive Design
+## ▶️ How to Run
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Make sure the HTML, CSS, and image files are in their correct locations.
+4. Open `index.html` in a modern web browser.
+
+## 📱 Responsive Design
 
 The layout can be viewed on:
 
-💻 Desktop
-📲 Tablet
-📱 Mobile
-⚠️ Project Limitations
+* 💻 Desktop
+* 📲 Tablet
+* 📱 Mobile
 
-This is a frontend-only blog layout.
+## ⚠️ Project Limitations
+
+This is a **frontend-only blog layout**.
 
 The project does not include:
 
-Backend
-Database
-User authentication
-Blog management system
-Comment system
-Admin dashboard
-Dynamic blog creation
+* Backend
+* Database
+* User authentication
+* Blog management system
+* Comment system
+* Admin dashboard
+* Dynamic blog creation
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 The project can be extended with:
 
-Multiple blog posts
-Blog search
-Categories
-Comments
-Like functionality
-User authentication
-Dynamic blog content
-Backend API
-Database integration
-Admin panel
+* Multiple blog posts
+* Blog search
+* Categories
+* Comments
+* Like functionality
+* User authentication
+* Dynamic blog content
+* Backend API
+* Database integration
+* Admin panel
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Tarak Sai
+**Tarak Sai**
 
-📄 License
+## 📄 License
 
-This project is created for educational and learning purposes.
+This project is created for **educational and learning purposes**.
